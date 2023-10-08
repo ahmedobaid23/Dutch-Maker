@@ -10,14 +10,14 @@ import {
 
 const Dropdown = (props) => {
   return (
-    <FormControl sx={{ width: "22rem", marginBottom: "1rem" }}>
+    <FormControl sx={{ width: "20rem", marginBottom: "1.5rem" }}>
       <p
         style={{ paddingBottom: "0.3rem", fontSize: "18px", fontWeight: "500" }}
       >
         {props.label}
       </p>
       <Select
-        sx={{ backgroundColor: "white", height: "2.5rem" }}
+        sx={{ backgroundColor: "white", height: "2.5rem", borderRadius: "7px" }}
         multiple
         value={props.value}
         name={props.name}

@@ -13,11 +13,11 @@ const InputField = (props) => {
         id="outlined-basic"
         variant="outlined"
         sx={{
-          width: "10rem",
+          width: "9rem",
           bgcolor: "white",
           borderRadius: "7px",
           "& fieldset": { border: "none" },
-          height: "2.5rem",
+          height: "2.3rem",
           display: "flex",
           justifyContent: "center",
         }}

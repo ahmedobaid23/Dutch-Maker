@@ -17,11 +17,33 @@
 }
 
 .home_panel-wrap {
-  flex-basis: 25rem;
+  flex-basis: 23rem;
   background-color: #323861;
 }
 
 .home_list-wrap {
   flex: 1;
   padding: 5rem 2rem;
+}
+
+.filterPanel {
+  padding: 20px;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon > p {
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+}
+
+.input-fields {
+  display: grid;
+  gap: 0.3rem;
 }
